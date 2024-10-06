@@ -1,0 +1,143 @@
+#container {
+  text-align: center;
+
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#container strong {
+  font-size: 10px;
+  line-height: 26px;
+}
+
+#container p {
+  font-size: 16px;
+  line-height: 22px;
+
+  color: #8c8c8c;
+
+  margin: 0;
+}
+
+#container a {
+  text-decoration: none;
+}
+
+.toolbar-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title-col {
+  display: flex;
+  justify-content: center;
+}
+
+.italic-title {
+  text-align: center;
+  font-style: italic;
+}
+
+.icon {
+  width: 24px;  /* Ajusta el tamaño de la cámara */
+  height: 24px; /* Mantén la proporción */
+}
+
+.directo-icon {
+  width: 24px;  /* Ajusta el tamaño de la imagen de directo */
+  height: 24px; /* Mantén la proporción */
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
+
+.avatar-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px 0;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+}
+
+.post-card {
+  margin: 10px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.icons {
+  width: 30px;
+  height: 30px;
+}
+
+.like-item {
+  display: flex;
+  align-items: center;
+  padding-top: 0;
+}
+
+.like-text {
+  margin-left: 10px;
+  font-size: 0.8rem;
+}
+
+.image-gallery {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.p {
+  width: 60px;
+  height: 60px;
+  margin: 0 5px;
+}
+
+.keflsa {
+  width: 40px;
+  height: 40px;
+}
+
+
+
+.items {
+  display: flex; // Asegura que los íconos estén en línea
+  justify-content: flex-start; // Alinea los íconos al inicio (izquierda)
+  align-items: center; // Centra verticalmente los íconos
+  padding: 10px; // Espacio interno del item, puedes ajustarlo
+
+  .icons, .icosns, .ic {
+    width: 30px; // Ancho deseado para los íconos, ajusta según necesidad
+    height: 30px; // Alto deseado para los íconos
+    margin-right: 10px; // Espacio entre cada ícono
+  }
+
+  .icons {
+    width: 25px;
+    height: 25px;// Puedes agregar propiedades específicas para el ícono de corazón si lo necesitas
+  }
+
+  .icosns {
+    width: 25px;
+    height: 25;// Puedes agregar propiedades específicas para el ícono de globo si lo necesitas
+  }
+
+  .ic {
+    width: 25px;
+    height: 25px;// Puedes agregar propiedades específicas para el ícono de enviar si lo necesitas
+  }
+}
